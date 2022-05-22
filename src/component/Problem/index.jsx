@@ -14,7 +14,9 @@ const Problem = () => {
   const [isClick, setIsClick] = useState(false);
 
   useEffect(() => {
-    setCount(count + 1);
+    // 발생원인 : count를 제대로 인식을 못함
+    // 해결방법 : arrow 함수를 통해 count 변수를 설정해줌
+    setCount((count) => count + 1);
   }, [isClick]);
 
   return (
