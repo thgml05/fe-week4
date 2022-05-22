@@ -83,8 +83,9 @@ https://user-images.githubusercontent.com/77886826/168815930-c19399fc-e6b8-43e8-
 
 
 <br>
+
 # 실습 제출!!
-![screenshot](https://user-images.githubusercontent.com/76714311/169680119-f65a9186-21c3-4979-8f4f-18a0b2816c07.jpg)
+
 <p>
 <img src="https://user-images.githubusercontent.com/76714311/169680298-01c3c591-60b3-4f7c-bbd4-99fa11ff4e4b.gif">
  </p>
