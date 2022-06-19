@@ -19,13 +19,8 @@ const ViewWrapper = styled.div`
 function InputSample() {
   const [name, setName] = useState("");
   const [nickName, setNickName] = useState("");
-  //이 페이지에서 useState를 단 한번만 사용한다면 선착순 한분에게 커피한잔 사드립니다!
-  // 요 위치에 useState 구문이 들어가면 됩니다!
 
   const onChangeName = (e) => {
-    // console.log(e.target.value); // e.target.value 가 무엇일까요??
-    // 여기에 코드를 작성하여 해결합니다!
-    // onChange 함수를 읽히고 이 함수가 사용될때 useState 가 사용되면 되겠죠?
     setName(e.target.value);
   };
 
@@ -36,7 +31,6 @@ function InputSample() {
   const onReset = () => {
     setName("");
     setNickName("");
-    // 여기는 reset 버튼을 눌렀을때 발생하는 함수입니다!!
   };
 
   return (
