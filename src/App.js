@@ -16,8 +16,11 @@ function App() {
       >
         gdgdgd
       </button>
+      {/* 이름, 닉네임 입력 부분 */}
       <InputSample />
+      {/* 오류 해결 부분 */}
       <Problem />
+      {/* 계산기 부분 */}
       <Calculator />
     </>
   );
